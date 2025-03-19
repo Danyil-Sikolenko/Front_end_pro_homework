@@ -1,0 +1,13 @@
+table {
+    width: 50%;
+    margin: auto;
+}
+td, th {
+    border: 1px solid #000;
+    text-align: center; 
+    padding: 10px;
+}
+
+.background_cell {
+    background-color: rgb(98, 255, 203);
+}
