@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.start{
+    margin-right: 30px;
+    padding: 20px;
+    background-color: green;
+}
+.enter{
+    padding: 20px;
+    background-color: aqua;
+}
