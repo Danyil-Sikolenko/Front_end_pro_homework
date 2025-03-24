@@ -1,0 +1,25 @@
+*{
+    list-style: none;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.btn_add{
+    background-color: rgb(98, 184, 45);
+    color: rgb(255, 255, 255);
+}
+
+
+.btn_delete{
+    background-color: red;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
