@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    min-height: 50vh;
+    height: 100%;
+}
+
+.main_content{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.wrapper {
+    background-color: rgb(242, 239, 239); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 420px; 
+    width: 100%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    display: block;
+  }
+  h1{
+    color: rgb(224, 55, 55);
+    font-size: 26px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+  }
+  .user_name{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    font-size: 16px;
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.user_message{
+    margin-left: 15px;
+    font-size: 16px;
+    padding-left: 8px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    width: 90%;
+    margin-bottom:20px;
+}
+h2{
+    font-size: 16px;
+    color: rgb(158, 155, 155);  
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.user_phone{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    font-size: 16px;
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.user_email{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    font-size: 16px;
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.send_message{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    width: 90%;
+    background-color: rgba(63, 63, 255, 0.915);
+    box-shadow: rgb(rgb(68, 68, 255));
+    border: none;
+    border-radius: 10px;
+
+}
+.errore{
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+    position: absolute;
+}
+
+
+
+  

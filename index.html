@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <section class="main_content">
+            <div class="wrapper">
+                <form action="#" id="formRegister">
+                <h1>We would like to help you</h1>
+                <div class="error" id="error_name"></div> 
+                <input class="user_name" type="text" name="userName" id="userName" placeholder="Name">
+                <div class="error" id="error_message"></div> 
+                <textarea class="user_message" name="message" id="message" placeholder="Message"></textarea> 
+                <h2>How to answer you ?</h2>
+                <div class="error" id="error_number"></div> 
+                <input class="user_phone" type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone number">
+                <div class="error" id="error_email"></div> 
+                <input class="user_email" type="text" name="userEmail" id="userEmail" placeholder="Email" >
+                <button class="send_message" type="submit">Send message</button>
+            </form>
+            </div>
+        </section>
+    </main>
 
     <script src="main.js"></script>
 </body>
