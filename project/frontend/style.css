@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.add_box{
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 30px;
+    /* display: flex;
+    justify-content: space-around; */
+    margin-right: 10px;
+    margin-left: 20px;
+}
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.container{
+    max-width: 600px;
+    margin: auto;
+}
+.add_todo{
+    background-color: rgb(36, 205, 36);
+    color: #fff;
+    font-size: 17px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid #000;
+    border-radius: 5px;
+}
+ul{
+    text-align: center;
+}
+.items{
+    font-size: 20px;
+    padding: .5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    /* display: flex;
+    justify-content: left; */
+    text-align: left;
+
+}
+span{
+    max-width: 100%; /* Ограничение ширины */
+    overflow-wrap: break-word; /* Перенос длинных слов */
+
+}
+.delete_btn{
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    border: none;
+    margin-top: 10px;
+}
